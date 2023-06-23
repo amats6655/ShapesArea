@@ -46,3 +46,22 @@ public class Triangle : Shape
         return Math.Abs(Math.Pow(sides[2], 2) - (Math.Pow(sides[0], 2) + Math.Pow(sides[1], 2))) < 0.000001;
     }
 }
+
+
+
+public class Rectangle : Shape
+{
+    public double SideA { get; set; }
+    public double SideB { get; set; }
+
+    public Rectangle(double sideA, double sideB)
+    {
+        SideA = sideA;
+        SideB = sideB;
+    }
+
+    public override double CalculateArea()
+    {
+        return SideA * SideB;
+    }
+}

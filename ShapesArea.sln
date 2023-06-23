@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesArea", "ShapesArea\ShapesArea.csproj", "{33573396-8D3C-4766-AC11-AA68E8F60282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeTests", "ShapeTests\ShapeTests.csproj", "{774A2811-5A72-4988-8209-F1E3A73A7612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33573396-8D3C-4766-AC11-AA68E8F60282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33573396-8D3C-4766-AC11-AA68E8F60282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33573396-8D3C-4766-AC11-AA68E8F60282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33573396-8D3C-4766-AC11-AA68E8F60282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774A2811-5A72-4988-8209-F1E3A73A7612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774A2811-5A72-4988-8209-F1E3A73A7612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774A2811-5A72-4988-8209-F1E3A73A7612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774A2811-5A72-4988-8209-F1E3A73A7612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
